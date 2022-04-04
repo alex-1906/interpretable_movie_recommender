@@ -9,11 +9,11 @@ class Recommender:
 
     def __init__(self):
         '''Loading the required Datasets from the Data Folder'''
-        metadata_df = pd.read_csv('../Data/movies_metadata.csv', low_memory=False)
-        ratings_df = pd.read_csv('../Data/ratings.csv')
-        movies_df = pd.read_csv('../Data/movies.csv')
-        posters_df = pd.read_csv('../Data/movie_poster.csv', delimiter=';')
-        links_df = pd.read_csv('../Data/links.csv')
+        metadata_df = pd.read_csv('Data/movies_metadata.csv', low_memory=False)
+        ratings_df = pd.read_csv('Data/ratings.csv')
+        movies_df = pd.read_csv('Data/movies.csv')
+        posters_df = pd.read_csv('Data/movie_poster.csv', delimiter=';')
+        links_df = pd.read_csv('Data/links.csv')
 
         '''Preprocessing'''
 
